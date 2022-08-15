@@ -1,0 +1,157 @@
+body{
+    font-family: Verdana;
+}
+
+.header{
+    background: crimson;
+    border: solid 5px rgb(181, 7, 42);
+    height: 72px;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+    
+}
+
+.body_title{
+    width: 400px;
+    margin: 16px;
+    /*border: 5px solid red;*/
+    color: rgb(20, 20, 20);
+    margin-left: 80px;
+}
+
+
+#pigpic{
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+    margin-right: 40px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+.button{
+    background-color: crimson;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+}
+#botbutton{
+    background-color: crimson;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position:relative; left: 5px; top: -10px;
+}
+
+.background{
+    background: lightcoral;
+    border: solid 3px crimson;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.title{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    background: lightcoral;
+  }
+
+.players_container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.players{
+    width: 200px;
+    height:200px;
+    border-radius: 15px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+.text{
+    max-width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#text_margin{
+    margin-top: 10px;
+}
+
+.background2{
+    background: rgb(224, 224, 224);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border: solid 3px rgb(59, 59, 59);
+}
+
+.chadmorris{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 40px;
+}
+
+#quote{
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+}
+
+.footer{
+    background: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.newsletter{
+    background-color: lightcoral;
+    color: white;
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 5px crimson;
+}
